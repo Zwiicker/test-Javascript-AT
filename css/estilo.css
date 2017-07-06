@@ -1,0 +1,113 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+html, body {
+  
+  height: 100%;
+  
+}
+
+body {
+
+  background: #009999;
+  min-height: 100%;
+}
+
+.carta .dentro.cartaEscolhida, .carta .dentro.igual {
+
+transform: rotateY(540deg);
+          
+}
+
+.jogoMemoria {
+
+  width: 90%;
+  height: 550px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+
+
+.carta {
+  float: right;
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+
+}
+
+.carta .dentro {
+
+  width: 100%;
+  height: 100%;
+  transform-style:  preserve-3d;
+  transition: .4s ;
+  background: snow;
+  backface-visibility: hidden;
+
+}
+
+.carta .frente, .carta .back {
+  border: 1px solid black;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.carta .frente img, .carta .back img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.carta .frente {
+  background:  snow;
+  transform: rotateY(180deg);
+}
+
+.newGame {
+
+   width: 100%;
+   height: auto;
+   
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#26a399), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #26a399, #65a9d7);
+   background: -moz-linear-gradient(top, #26a399, #65a9d7);
+   background: -ms-linear-gradient(top, #26a399, #65a9d7);
+   background: -o-linear-gradient(top, #26a399, #65a9d7);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+ 
+}
+
+.newGame:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.newGame:active {
+   border-top-color: #2f84bd;
+   background: #2f84bd;
+   }
