@@ -2,7 +2,7 @@
  
 <br /><br />
   
-  Aplicação acadêmica desenvolvida  durante o 3° Período na faculdade [INFNET](https://www.infnet.edu.br/infnet/instituto/) <br /><br />
+  Aplicação de um projeto acadêmico desenvolvido durante o 3° Período da faculdade [INFNET](https://www.infnet.edu.br/infnet/instituto/) <br /><br />
   
 </div> 
 
